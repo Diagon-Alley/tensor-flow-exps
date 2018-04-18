@@ -56,4 +56,3 @@ Basically on avearge how far are you from the correct continuous value.
 ## Unsupervised: Evaluation
 
 * Cluster homogenity, Rand index
-
