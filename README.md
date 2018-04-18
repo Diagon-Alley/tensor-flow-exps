@@ -15,9 +15,7 @@ So what happens in case of reinforcement learning is that the agent chooses acti
 
 ## General steps in machine learning
 
-```html
 <h3 style="color:DodgerBlue;">Note that general steps in Machine learning do not always comply with reinforcement learning. The steps in reinforcement learning are a little different on its own</h3>
-```
 
 * Data acquisition
 * Data cleaning(normalization and so on)
