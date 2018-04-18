@@ -15,12 +15,28 @@ So what happens in case of reinforcement learning is that the agent chooses acti
 
 ## General steps in machine learning
 
-<h3 style="color:DodgerBlue;">Note that general steps in Machine learning do not always comply with reinforcement learning. The steps in reinforcement learning are a little different on its own</h3>
+`Note that general steps in Machine learning do not always comply with reinforcement learning. The steps in reinforcement learning are a little different on its own`
+
+### Supervised learning
 
 * Data acquisition
 * Data cleaning(normalization and so on)
 * Train, Test split(30%, 70% ---30 % being test and the other being train)
 * Train model
-* Evaluate model(using test set)
+* Evaluate model(using test set). Based on the evaluation results we may need to adjust the model parameters
+* Deploy model on new incoming data
+
+### Unsupervised learning
+
+* Data acquisition
+* Data Cleaning(normalization and so on)
+* Prepare the train data
+* Train model
+* Evaluate model and adjust model parameters and then evaluate again
+* Deploy model 
+
+### Hold out sets
+
+Here we actually divide the data into 3 sets: a train set, a test set and a holdout set. The holdout set is used to get a true sense of how the model is going to perform in case of data that has never been seen before. After training the model we are going to test the model using the test set. Based on the test results we are going to adjust the parameters of our model and retrain and test the model. This is a cycle and we can go over this again and again until we are satisfied. However this test data too is not giving us a true measure of how the model is preforming in case of new and unseen data. So basically this hold-out data is going to give us a sense of how the model going to perform when deployed and it sees data that it has never seen before.
 
 
